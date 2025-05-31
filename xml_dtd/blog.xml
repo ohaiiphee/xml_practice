@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE blog SYSTEM "blog.dtd"> -->
+<!DOCTYPE blog [
+<!ELEMENT blog (post+)>
+<!ELEMENT post (title, author, date, content)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+]>
+<blog>
+    <post>
+        <title>First Post</title>
+        <author>Sofia</author>
+        <date>28/01/1994</date>
+        <content>This is my first post</content>
+    </post>
+    <post>
+        <title>Second Post</title>
+        <author>Ana</author>
+        <date>25/12/2012</date>
+        <content>Another post!</content>
+    </post>
+    <post>
+        <title>Third Post</title>
+        <author>Marina</author>
+        <date>05/03/2025</date>
+        <content>A third post appears</content>
+    </post>
+</blog>
