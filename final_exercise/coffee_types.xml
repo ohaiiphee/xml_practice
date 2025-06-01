@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="coffee_types.xsl" type="text/xsl"?>
+<coffee_types>
+<!-- <coffee_types xmlns="URI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="URI coffee_types.xsd"> -->
+    <!-- Espresso -->
+    <coffee id="1" rating="7/10" type="short">
+        <name>Espresso</name>
+        <description>A simple, short coffee.</description>
+        <has_milk>No</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+        </how_to>
+    </coffee>
+    <!-- Caffe Latte -->
+    <coffee id="2" rating="6/10" type="long">
+        <name>Caffe Latte</name>
+        <description>A full cup with more milk than coffee.</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+            <ingredient>Foamed Milk</ingredient>
+        </how_to>
+    </coffee>
+    <!-- Cappuccino -->
+    <coffee id="3" rating="8/10" type="half">
+        <name>Cappuccino</name>
+        <description>A full cup with more foam than coffee.</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+            <ingredient>Foamed Milk</ingredient>
+        </how_to>
+    </coffee> 
+    <!-- Latte Macchiato -->
+    <coffee id="4" rating="7/10" type="long">
+        <name>Latte Macchiato</name>
+        <description>Kinda like a Caffe Latte, but with more coffee - the order of ingredients makes a difference!</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient>Foamed Milk</ingredient>
+        </how_to>
+    </coffee>  
+    <!-- Espresso Macchiato -->
+    <coffee id="5" rating="5/10" type="half">
+        <name>Espresso Macchiato</name>
+        <description>A shot of espresso with a bit of milk.</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+        </how_to>
+    </coffee>  
+    <!-- Mocha -->
+    <coffee id="6" rating="6/10" type="long">
+        <name>Mocha</name>
+        <description>Basically a Caffe Latte with a bit of Chocolate mixed in.</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient>Chocolate</ingredient>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+            <ingredient>Foamed Milk</ingredient>
+        </how_to>
+    </coffee>   
+    <!-- Cortado -->
+    <coffee id="7" rating="5/10" type="half">
+        <name>Cortado</name>
+        <description>Equal parts coffee and milk.</description>
+        <has_milk>Yes</has_milk>
+        <how_to>
+            <ingredient temperature="58 C°">Shot of Espresso</ingredient>
+            <ingredient temperature="65 C°">Steamed Milk</ingredient>
+        </how_to>
+    </coffee>
+</coffee_types>
